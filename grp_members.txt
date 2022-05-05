@@ -1,0 +1,12 @@
+
+
+Project : Travelocity clone
+IA - Anubhav Varshney
+
+Group members :
+1 - Anmolkumar (fw18_1217)
+2 - Shivam Tripathi (fp03_083)
+3 - Satyam (fw18_0046)
+4 - Anu Pratap Singh (fw17_0242)
+5 - Shubham Devidas Muddamwar (fw18_0671)
+6 - Aman Patel (fw18_0018)
