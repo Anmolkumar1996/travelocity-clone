@@ -298,3 +298,7 @@ button:hover{
       color:black;
       cursor: pointer;
     }
+
+    .box2>img{
+        height: 120px;
+    }

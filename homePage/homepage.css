@@ -112,6 +112,10 @@ font-size: 15px;
     margin-top: 20px;
     cursor: pointer;
 }
+#check+button>a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 #check+button:hover{
     background-color: rgb(59, 59, 246)
