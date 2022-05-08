@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(248, 246, 246);
+  }
+
+/* Navbar related css */
+.topnav {
+    background-color: rgb(14,74,148);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+   flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+   
+    color: rgb(201, 201, 230);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /* Navbar related css */
+
+ #row{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(2,180px);
+     gap: 3px;
+     
+     width:80%;
+     
+     grid-template-areas: 
+     "a b c"
+     "a d e";
+     
+     margin: auto;
+     margin-top: 10px;
+    }
+    #row >img{
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+#row > div:nth-child(1){
+    grid-area: a;
+}
+#row > div:nth-child(2){
+    grid-area: b;
+}
+#row > div:nth-child(3){
+    grid-area: c;
+}
+#row > div:nth-child(4){
+    grid-area: d;
+}
+#row > div:nth-child(5){
+    grid-area: e;
+}
+.ppt{
+  color: blue;
+  margin-left: 10px;
+}
+
+.inf{
+    color: #505C66;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.125rem;
+    background: #FFFFFF;
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    min-block-size: 2.75rem;
+    position: relative;
+    box-shadow: 0 1px 0 0 #a1aab3;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+}
+button:hover{
+    cursor: pointer;
+}
+.map{
+    border-radius: 10px;
+}
+.link{
+    color: blue;
+}
+.map{
+    margin-left: 70%;
+    margin-bottom: 150px;
+}
+.adrs{
+    text-align: right;
+}
+.adrs > table{
+    align-content: flex-end;
+}
+.container{
+    display: flex;
+    
+    padding: 2% 0px;
+    width: 80%;
+    margin: auto;
+
+}
+.inf{
+    width:20%;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+   
+    padding: 2% 0px;
+    text-align: center;
+}
+.inf{
+    color: #505C66;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.125rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#info > h1,p{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#info >h3{
+
+    color: #242C33;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.btn{
+    border: none;
+    width: 20%;
+    margin-left: 330px;
+}
+#info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(1,180px);
+     gap: 5px;
+     width:80%;
+     height: 100%;
+     grid-template-areas: 
+     "aa ab";
+}
+#info >div:nth-child(1){
+    grid-area: aa;
+}
+#info >div:nth-child(2){
+    grid-area: ab;
+}
+.pic2>img{
+    display: flex;
+    width: 40%;
+    height: 50%;
+}
+#container2{
+    height: 400px;
+    width:90%;
+   
+    margin:auto;
+    display:flex;
+}
+#container2 > .box2{
+    
+    width:50%;
+    height: auto;
+    
+}
+
+ .box2>h1,h3{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-left: 10px;
+ } 
+ .box2>h3{
+    line-height: 10rem;
+ }
+ .box2>img{
+     border-radius: 10px;
+     margin-left: 30%;
+ }
+ .box2>a{
+     color: blue;
+ }
+ .box2>a:hover{
+     color: blue;
+     cursor: pointer;
+ }
+ #ul{
+    margin-top: 80px;
+ }
+ .inpt{
+     width:20%;
+     height:40%;
+
+ }
+ .ak2{
+     margin: auto;
+     height: 70px;
+     width: 90%;
+     
+ }
+ .ak2>h1{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ }
+ .ak2>input,button{
+     width:300px;
+     height: 40px;
+     border-radius: 10px;
+     border: 1px solid gray;
+     
+ }
+ #cont3{
+     margin: auto;
+     width:90%;
+     height:800px;
+     
+     display: flex;
+     margin-top: 30px;
+ }
+ .card{
+     width:30%;
+     height: 80%;
+     border-radius:10px ;
+     border:1px solid grey;
+     background-color: white;
+     margin: 10px;
+ }
+ .card>img{
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     height: 25%;
+     width: 100%;
+ }
+ .lst{
+     line-height: 40px;
+     margin-left: 20px;
+ }
+ #of{
+     margin-left: 5px;
+     height: 30px;
+     width:60px;
+     background-color: #1F7D57;
+     border-radius: 5px;
+     line-height: 20px;
+     }
+     #of{
+         
+        font-size: 15px;
+        color: white;
+        padding: 1% 0px;
+        text-align: center;
+     }
+     .rsv{
+         margin-left: 180px;
+         width:70px;
+         height:30px;
+         border: none;
+     }
+     #w{
+         color: red;
+         text-align: end;
+         margin-right: 10px;
+        
+     }
+     i{
+       margin-left: 10px;
+       color: #585a5c;  
+    }
+    i:hover{
+      color:black;
+      cursor: pointer;
+    }
