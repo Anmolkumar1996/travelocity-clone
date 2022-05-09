@@ -11,5 +11,5 @@ myform.addEventListener("submit", function (event) {
     }
     console.log(Data)
     localStorage.setItem("userData",JSON.stringify(Data));
-     window.location.href="/travelocity-clone/signin.html";
+     window.location.href="signin.html";
 })
