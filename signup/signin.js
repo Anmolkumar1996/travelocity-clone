@@ -16,7 +16,7 @@ myform.addEventListener("submit",function(event){
     else if(userData.email==data.email && userData.password==data.password){
         alert("sign in Successful")
         localStorage.setItem("signin",JSON.stringify(userData))
-         window.location.href="http://127.0.0.1:5500/travelocity-clone/homePage/homepage.html"
+         window.location.href="http://127.0.0.1:5500/travelocity-clone/homePage/index.html"
     }
     else
     {
