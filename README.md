@@ -19,5 +19,6 @@ This project was created as part of my front-end web development learning journe
 
 - 🧾 HTML  
 - 🎨 CSS  
-- ⚙️ JavaScript  
+- ⚙️ JavaScript
+-  ES6
 ## Demo LinK :- https://github.com/Anmolkumar1996/travelocity-clone
